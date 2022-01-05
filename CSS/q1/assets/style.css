@@ -1,0 +1,120 @@
+*{
+          padding: 0;
+          margin: 0;
+}
+.menutop{
+          margin: 0 auto;
+          padding: 1%;
+}
+img{
+          width: 5%;
+          position:relative;
+          float:left;
+}
+.menu> ul {
+          margin-top: 1%;
+          list-style-type: none; 
+          float: left;
+}
+ul{
+          padding: 0 20%;         
+}
+ul > li{
+          display: inline-block;
+          padding: 1.2% 3%;
+
+          
+}
+a{
+          text-decoration: none;
+          color: rgb(38, 166, 189);
+          padding-top: 5%;
+
+}
+a:hover{
+          color: rgb(175, 175, 40);
+          border-top: 1px solid rgb(175, 175, 40);
+}
+.navBar1 , .navBar2{
+          height: 5%;
+          color: white;
+          background-color: rgb(38, 166, 189);
+}
+.navBar1 span , .navBar2 span{
+          padding: 1.5%;
+}
+#one{
+    float: left;
+}
+#two{
+   float: right;
+}
+.content{
+          padding: 5% 10%;
+}
+.content p:first-child{
+          font-size: larger;
+          color: rgb(38, 166, 189);
+          font-weight: 700;
+          padding:1% 45%;
+}
+.firstCart{
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+}
+.firstCart img{
+    width: 100%;
+    object-fit: cover;
+}
+.container{
+    padding: 2%;
+    background-color: white;
+}
+.boxShadow{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  
+}
+.content p{
+          padding: 0 22%;
+          margin-bottom: 3%;
+}
+.navBar2 span{
+          float: left;
+          padding-left: 2%;
+}
+.navBar2 form{
+          float: right;
+          padding: 1.5%;
+}
+form input{
+          border-color: white;
+          color: rgb(219, 201, 201);
+          /* padding: 1%; */
+}
+form input[type=submit]{
+          background-color: yellowgreen;
+          color: white;
+}
+.footer{
+          padding: 5%;
+          height: 15%;
+          background-color: white;
+}
+.footer img{
+          width: 80%;
+}
+.footer div{
+          display: inline-block;
+          width:15%;
+          margin-left: 5%;
+}
+.navBar3{
+          height: 1%;
+          background-color: rgb(38, 166, 189);
+          color: white;
+          padding: 1% 25%;
+}
+.clear{
+          clear: both;
+}
