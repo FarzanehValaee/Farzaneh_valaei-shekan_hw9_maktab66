@@ -33,7 +33,7 @@ function StackCalc(str){
       })
 
   while(numbers.length>0){
-     if(stack){
+     if(stack.length>0){
           x = stack[i]
           y=numbers.pop()
          if(op.length>0){
